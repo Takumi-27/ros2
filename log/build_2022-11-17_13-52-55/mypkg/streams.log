@@ -1,0 +1,26 @@
+[1.273s] Invoking command in '/home/ochiai/ros2_ws/src/mypkg': PYTHONPATH=/home/ochiai/ros2_ws/install/mypkg/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mypkg build --build-base /home/ochiai/ros2_ws/build/mypkg/build install --prefix /home/ochiai/ros2_ws/install/mypkg --record /home/ochiai/ros2_ws/build/mypkg/install.log --single-version-externally-managed
+[1.699s] running egg_info
+[1.700s] writing ../../build/mypkg/mypkg.egg-info/PKG-INFO
+[1.700s] writing dependency_links to ../../build/mypkg/mypkg.egg-info/dependency_links.txt
+[1.700s] writing entry points to ../../build/mypkg/mypkg.egg-info/entry_points.txt
+[1.701s] writing requirements to ../../build/mypkg/mypkg.egg-info/requires.txt
+[1.701s] writing top-level names to ../../build/mypkg/mypkg.egg-info/top_level.txt
+[1.753s] reading manifest file '../../build/mypkg/mypkg.egg-info/SOURCES.txt'
+[1.755s] writing manifest file '../../build/mypkg/mypkg.egg-info/SOURCES.txt'
+[1.756s] running build
+[1.756s] running build_py
+[1.756s] copying mypkg/listener.py -> /home/ochiai/ros2_ws/build/mypkg/build/lib/mypkg
+[1.756s] running install
+[1.757s] running install_lib
+[1.758s] copying /home/ochiai/ros2_ws/build/mypkg/build/lib/mypkg/listener.py -> /home/ochiai/ros2_ws/install/mypkg/lib/python3.6/site-packages/mypkg
+[1.759s] byte-compiling /home/ochiai/ros2_ws/install/mypkg/lib/python3.6/site-packages/mypkg/listener.py to listener.cpython-36.pyc
+[1.759s] running install_data
+[1.760s] copying launch/talk_listen.launch.py -> /home/ochiai/ros2_ws/install/mypkg/share/mypkg
+[1.760s] running install_egg_info
+[1.762s] removing '/home/ochiai/ros2_ws/install/mypkg/lib/python3.6/site-packages/mypkg-0.0.0-py3.6.egg-info' (and everything under it)
+[1.762s] Copying ../../build/mypkg/mypkg.egg-info to /home/ochiai/ros2_ws/install/mypkg/lib/python3.6/site-packages/mypkg-0.0.0-py3.6.egg-info
+[1.763s] running install_scripts
+[1.799s] Installing listener script to /home/ochiai/ros2_ws/install/mypkg/lib/mypkg
+[1.799s] Installing talker script to /home/ochiai/ros2_ws/install/mypkg/lib/mypkg
+[1.800s] writing list of installed files to '/home/ochiai/ros2_ws/build/mypkg/install.log'
+[1.841s] Invoked command in '/home/ochiai/ros2_ws/src/mypkg' returned '0': PYTHONPATH=/home/ochiai/ros2_ws/install/mypkg/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mypkg build --build-base /home/ochiai/ros2_ws/build/mypkg/build install --prefix /home/ochiai/ros2_ws/install/mypkg --record /home/ochiai/ros2_ws/build/mypkg/install.log --single-version-externally-managed

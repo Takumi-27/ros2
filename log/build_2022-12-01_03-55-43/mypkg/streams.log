@@ -1,0 +1,22 @@
+[0.624s] Invoking command in '/home/ochiai/ros2_ws/src/mypkg': PYTHONPATH=/home/ochiai/ros2_ws/install/mypkg/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mypkg build --build-base /home/ochiai/ros2_ws/build/mypkg/build install --prefix /home/ochiai/ros2_ws/install/mypkg --record /home/ochiai/ros2_ws/build/mypkg/install.log --single-version-externally-managed
+[0.822s] running egg_info
+[0.822s] writing ../../build/mypkg/mypkg.egg-info/PKG-INFO
+[0.825s] writing dependency_links to ../../build/mypkg/mypkg.egg-info/dependency_links.txt
+[0.825s] writing entry points to ../../build/mypkg/mypkg.egg-info/entry_points.txt
+[0.826s] writing requirements to ../../build/mypkg/mypkg.egg-info/requires.txt
+[0.826s] writing top-level names to ../../build/mypkg/mypkg.egg-info/top_level.txt
+[0.866s] reading manifest file '../../build/mypkg/mypkg.egg-info/SOURCES.txt'
+[0.868s] writing manifest file '../../build/mypkg/mypkg.egg-info/SOURCES.txt'
+[0.868s] running build
+[0.868s] running build_py
+[0.869s] running install
+[0.870s] running install_lib
+[0.871s] running install_data
+[0.872s] running install_egg_info
+[0.874s] removing '/home/ochiai/ros2_ws/install/mypkg/lib/python3.6/site-packages/mypkg-0.0.0-py3.6.egg-info' (and everything under it)
+[0.874s] Copying ../../build/mypkg/mypkg.egg-info to /home/ochiai/ros2_ws/install/mypkg/lib/python3.6/site-packages/mypkg-0.0.0-py3.6.egg-info
+[0.875s] running install_scripts
+[0.894s] Installing listener script to /home/ochiai/ros2_ws/install/mypkg/lib/mypkg
+[0.894s] Installing talker script to /home/ochiai/ros2_ws/install/mypkg/lib/mypkg
+[0.895s] writing list of installed files to '/home/ochiai/ros2_ws/build/mypkg/install.log'
+[0.915s] Invoked command in '/home/ochiai/ros2_ws/src/mypkg' returned '0': PYTHONPATH=/home/ochiai/ros2_ws/install/mypkg/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mypkg build --build-base /home/ochiai/ros2_ws/build/mypkg/build install --prefix /home/ochiai/ros2_ws/install/mypkg --record /home/ochiai/ros2_ws/build/mypkg/install.log --single-version-externally-managed

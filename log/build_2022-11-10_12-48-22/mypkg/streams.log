@@ -1,0 +1,33 @@
+[0.399s] Invoking command in '/home/ochiai/Git/robosys2022/ros2_setup_scripts/ros2_ws/src/mypkg': PYTHONPATH=/home/ochiai/Git/robosys2022/ros2_setup_scripts/ros2_ws/install/mypkg/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mypkg build --build-base /home/ochiai/Git/robosys2022/ros2_setup_scripts/ros2_ws/build/mypkg/build install --prefix /home/ochiai/Git/robosys2022/ros2_setup_scripts/ros2_ws/install/mypkg --record /home/ochiai/Git/robosys2022/ros2_setup_scripts/ros2_ws/build/mypkg/install.log --single-version-externally-managed
+[0.531s] running egg_info
+[0.532s] creating ../../build/mypkg/mypkg.egg-info
+[0.532s] writing ../../build/mypkg/mypkg.egg-info/PKG-INFO
+[0.532s] writing dependency_links to ../../build/mypkg/mypkg.egg-info/dependency_links.txt
+[0.532s] writing entry points to ../../build/mypkg/mypkg.egg-info/entry_points.txt
+[0.533s] writing requirements to ../../build/mypkg/mypkg.egg-info/requires.txt
+[0.533s] writing top-level names to ../../build/mypkg/mypkg.egg-info/top_level.txt
+[0.533s] writing manifest file '../../build/mypkg/mypkg.egg-info/SOURCES.txt'
+[0.560s] reading manifest file '../../build/mypkg/mypkg.egg-info/SOURCES.txt'
+[0.561s] writing manifest file '../../build/mypkg/mypkg.egg-info/SOURCES.txt'
+[0.561s] running build
+[0.561s] running build_py
+[0.561s] creating /home/ochiai/Git/robosys2022/ros2_setup_scripts/ros2_ws/build/mypkg/build
+[0.561s] creating /home/ochiai/Git/robosys2022/ros2_setup_scripts/ros2_ws/build/mypkg/build/lib
+[0.561s] creating /home/ochiai/Git/robosys2022/ros2_setup_scripts/ros2_ws/build/mypkg/build/lib/mypkg
+[0.561s] copying mypkg/__init__.py -> /home/ochiai/Git/robosys2022/ros2_setup_scripts/ros2_ws/build/mypkg/build/lib/mypkg
+[0.562s] running install
+[0.562s] running install_lib
+[0.562s] creating /home/ochiai/Git/robosys2022/ros2_setup_scripts/ros2_ws/install/mypkg/lib/python3.6/site-packages/mypkg
+[0.562s] copying /home/ochiai/Git/robosys2022/ros2_setup_scripts/ros2_ws/build/mypkg/build/lib/mypkg/__init__.py -> /home/ochiai/Git/robosys2022/ros2_setup_scripts/ros2_ws/install/mypkg/lib/python3.6/site-packages/mypkg
+[0.563s] byte-compiling /home/ochiai/Git/robosys2022/ros2_setup_scripts/ros2_ws/install/mypkg/lib/python3.6/site-packages/mypkg/__init__.py to __init__.cpython-36.pyc
+[0.563s] running install_data
+[0.563s] creating /home/ochiai/Git/robosys2022/ros2_setup_scripts/ros2_ws/install/mypkg/share/ament_index
+[0.563s] creating /home/ochiai/Git/robosys2022/ros2_setup_scripts/ros2_ws/install/mypkg/share/ament_index/resource_index
+[0.564s] creating /home/ochiai/Git/robosys2022/ros2_setup_scripts/ros2_ws/install/mypkg/share/ament_index/resource_index/packages
+[0.564s] copying resource/mypkg -> /home/ochiai/Git/robosys2022/ros2_setup_scripts/ros2_ws/install/mypkg/share/ament_index/resource_index/packages
+[0.564s] copying package.xml -> /home/ochiai/Git/robosys2022/ros2_setup_scripts/ros2_ws/install/mypkg/share/mypkg
+[0.564s] running install_egg_info
+[0.565s] Copying ../../build/mypkg/mypkg.egg-info to /home/ochiai/Git/robosys2022/ros2_setup_scripts/ros2_ws/install/mypkg/lib/python3.6/site-packages/mypkg-0.0.0-py3.6.egg-info
+[0.566s] running install_scripts
+[0.579s] writing list of installed files to '/home/ochiai/Git/robosys2022/ros2_setup_scripts/ros2_ws/build/mypkg/install.log'
+[0.592s] Invoked command in '/home/ochiai/Git/robosys2022/ros2_setup_scripts/ros2_ws/src/mypkg' returned '0': PYTHONPATH=/home/ochiai/Git/robosys2022/ros2_setup_scripts/ros2_ws/install/mypkg/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mypkg build --build-base /home/ochiai/Git/robosys2022/ros2_setup_scripts/ros2_ws/build/mypkg/build install --prefix /home/ochiai/Git/robosys2022/ros2_setup_scripts/ros2_ws/install/mypkg --record /home/ochiai/Git/robosys2022/ros2_setup_scripts/ros2_ws/build/mypkg/install.log --single-version-externally-managed

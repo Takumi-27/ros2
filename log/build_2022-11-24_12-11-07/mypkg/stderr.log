@@ -1,0 +1,5 @@
+  File "/home/ochiai/ros2_ws/install/mypkg/lib/python3.6/site-packages/mypkg/listener.py", line 26
+    break:
+         ^
+SyntaxError: invalid syntax
+

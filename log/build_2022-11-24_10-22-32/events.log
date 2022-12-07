@@ -1,0 +1,197 @@
+[0.000000] (-) TimerEvent: {}
+[0.001513] (mypkg) JobQueued: {'identifier': 'mypkg', 'dependencies': OrderedDict()}
+[0.001570] (person_msgs) JobQueued: {'identifier': 'person_msgs', 'dependencies': OrderedDict()}
+[0.001588] (mypkg) JobStarted: {'identifier': 'mypkg'}
+[0.011144] (person_msgs) JobStarted: {'identifier': 'person_msgs'}
+[0.099859] (-) TimerEvent: {}
+[0.154110] (person_msgs) JobProgress: {'identifier': 'person_msgs', 'progress': 'cmake'}
+[0.155482] (person_msgs) JobProgress: {'identifier': 'person_msgs', 'progress': 'build'}
+[0.155531] (person_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ochiai/ros2_ws/build/person_msgs', '--', '-j8', '-l8'], 'cwd': '/home/ochiai/ros2_ws/build/person_msgs', 'env': OrderedDict([('UIM_CANDWIN_PROG', 'uim-candwin-gtk'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ochiai'), ('LC_TIME', 'ja_JP.UTF-8'), ('LD_LIBRARY_PATH', '/home/ochiai/ros2_ws/install/person_msgs/lib:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib'), ('SHLVL', '1'), ('OLDPWD', '/home/ochiai/ros2_ws/src/person_msgs'), ('HOME', '/home/ochiai'), ('XIM', 'uim'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'ja_JP.UTF-8'), ('WSL_DISTRO_NAME', 'Ubuntu-18.04'), ('COLCON_PREFIX_PATH', '/home/ochiai/ros2_ws/install'), ('ROS_DISTRO', 'dashing'), ('LOGNAME', 'ochiai'), ('GTK_IM_MODULE', 'uim'), ('WSL_INTEROP', '/run/WSL/9_interop'), ('NAME', 'DESKTOP-V2CC7MF'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('LC_COLLATE', 'ja_JP.UTF-8'), ('PATH', '/opt/ros/dashing/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/Symantec/VIP Access Client/:/mnt/c/Program Files/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/MATLAB/R2022a/bin:/mnt/c/Users/Takumi.Ochiai/AppData/Local/Microsoft/WindowsApps:/snap/bin'), ('DISPLAY', '172.23.64.1:0'), ('LANG', 'ja_JP.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XMODIFIERS', '@im=uim'), ('AMENT_PREFIX_PATH', '/home/ochiai/ros2_ws/install/person_msgs:/home/ochiai/ros2_ws/install/mypkg:/opt/ros/dashing'), ('LC_MESSAGES', 'ja_JP.UTF-8'), ('LC_NAME', 'ja_JP.UTF-8'), ('SHELL', '/bin/bash'), ('NO_AT_BRIDGE', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ja_JP.UTF-8'), ('LC_IDENTIFICATION', 'ja_JP.UTF-8'), ('QT_IM_MODULE', 'uim'), ('PWD', '/home/ochiai/ros2_ws/build/person_msgs'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ochiai/ros2_ws/install/person_msgs/lib/python3.6/site-packages:/home/ochiai/ros2_ws/install/mypkg/lib/python3.6/site-packages:/opt/ros/dashing/lib/python3.6/site-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/ochiai/ros2_ws/install/person_msgs:/home/ochiai/ros2_ws/install/mypkg:/opt/ros/dashing'), ('WSLENV', '')]), 'shell': False}
+[0.173378] (person_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 0.7.6 (/opt/ros/dashing/share/ament_cmake/cmake)\n'}
+[0.189631] (person_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") \n'}
+[0.189832] (person_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.200031] (-) TimerEvent: {}
+[0.300502] (-) TimerEvent: {}
+[0.333371] (person_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 0.7.0 (/opt/ros/dashing/share/rosidl_default_generators/cmake)\n'}
+[0.400606] (-) TimerEvent: {}
+[0.419960] (mypkg) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/mypkg', 'build', '--build-base', '/home/ochiai/ros2_ws/build/mypkg/build', 'install', '--prefix', '/home/ochiai/ros2_ws/install/mypkg', '--record', '/home/ochiai/ros2_ws/build/mypkg/install.log', '--single-version-externally-managed'], 'cwd': '/home/ochiai/ros2_ws/src/mypkg', 'env': {'UIM_CANDWIN_PROG': 'uim-candwin-gtk', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ochiai', 'LC_TIME': 'ja_JP.UTF-8', 'LD_LIBRARY_PATH': '/home/ochiai/ros2_ws/install/person_msgs/lib:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib', 'SHLVL': '1', 'OLDPWD': '/home/ochiai/ros2_ws/src/person_msgs', 'HOME': '/home/ochiai', 'XIM': 'uim', 'ROS_PYTHON_VERSION': '3', 'LC_CTYPE': 'ja_JP.UTF-8', 'WSL_DISTRO_NAME': 'Ubuntu-18.04', 'COLCON_PREFIX_PATH': '/home/ochiai/ros2_ws/install', 'ROS_DISTRO': 'dashing', 'LOGNAME': 'ochiai', 'GTK_IM_MODULE': 'uim', 'WSL_INTEROP': '/run/WSL/9_interop', 'NAME': 'DESKTOP-V2CC7MF', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'LC_COLLATE': 'ja_JP.UTF-8', 'PATH': '/opt/ros/dashing/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/Symantec/VIP Access Client/:/mnt/c/Program Files/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/MATLAB/R2022a/bin:/mnt/c/Users/Takumi.Ochiai/AppData/Local/Microsoft/WindowsApps:/snap/bin', 'DISPLAY': '172.23.64.1:0', 'LANG': 'ja_JP.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'XMODIFIERS': '@im=uim', 'AMENT_PREFIX_PATH': '/home/ochiai/ros2_ws/install/person_msgs:/home/ochiai/ros2_ws/install/mypkg:/opt/ros/dashing', 'LC_MESSAGES': 'ja_JP.UTF-8', 'LC_NAME': 'ja_JP.UTF-8', 'SHELL': '/bin/bash', 'NO_AT_BRIDGE': '1', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ja_JP.UTF-8', 'LC_IDENTIFICATION': 'ja_JP.UTF-8', 'QT_IM_MODULE': 'uim', 'PWD': '/home/ochiai/ros2_ws/build/mypkg', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ochiai/ros2_ws/install/mypkg/lib/python3.6/site-packages:/home/ochiai/ros2_ws/install/person_msgs/lib/python3.6/site-packages:/home/ochiai/ros2_ws/install/mypkg/lib/python3.6/site-packages:/opt/ros/dashing/lib/python3.6/site-packages', 'COLCON': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/ochiai/ros2_ws/install/person_msgs', 'WSLENV': ''}, 'shell': False}
+[0.500733] (-) TimerEvent: {}
+[0.601104] (-) TimerEvent: {}
+[0.685485] (mypkg) StdoutLine: {'line': b'running egg_info\n'}
+[0.685946] (mypkg) StdoutLine: {'line': b'writing ../../build/mypkg/mypkg.egg-info/PKG-INFO\n'}
+[0.686283] (mypkg) StdoutLine: {'line': b'writing dependency_links to ../../build/mypkg/mypkg.egg-info/dependency_links.txt\n'}
+[0.686478] (mypkg) StdoutLine: {'line': b'writing entry points to ../../build/mypkg/mypkg.egg-info/entry_points.txt\n'}
+[0.686662] (mypkg) StdoutLine: {'line': b'writing requirements to ../../build/mypkg/mypkg.egg-info/requires.txt\n'}
+[0.686857] (mypkg) StdoutLine: {'line': b'writing top-level names to ../../build/mypkg/mypkg.egg-info/top_level.txt\n'}
+[0.701246] (-) TimerEvent: {}
+[0.739207] (mypkg) StdoutLine: {'line': b"reading manifest file '../../build/mypkg/mypkg.egg-info/SOURCES.txt'\n"}
+[0.740988] (mypkg) StdoutLine: {'line': b"writing manifest file '../../build/mypkg/mypkg.egg-info/SOURCES.txt'\n"}
+[0.741142] (mypkg) StdoutLine: {'line': b'running build\n'}
+[0.741361] (mypkg) StdoutLine: {'line': b'running build_py\n'}
+[0.741676] (mypkg) StdoutLine: {'line': b'running install\n'}
+[0.742249] (mypkg) StdoutLine: {'line': b'running install_lib\n'}
+[0.743943] (mypkg) StdoutLine: {'line': b'running install_data\n'}
+[0.744632] (mypkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.748121] (mypkg) StdoutLine: {'line': b"removing '/home/ochiai/ros2_ws/install/mypkg/lib/python3.6/site-packages/mypkg-0.0.0-py3.6.egg-info' (and everything under it)\n"}
+[0.748808] (mypkg) StdoutLine: {'line': b'Copying ../../build/mypkg/mypkg.egg-info to /home/ochiai/ros2_ws/install/mypkg/lib/python3.6/site-packages/mypkg-0.0.0-py3.6.egg-info\n'}
+[0.750432] (mypkg) StdoutLine: {'line': b'running install_scripts\n'}
+[0.781024] (mypkg) StdoutLine: {'line': b'Installing listener script to /home/ochiai/ros2_ws/install/mypkg/lib/mypkg\n'}
+[0.781391] (mypkg) StdoutLine: {'line': b'Installing talker script to /home/ochiai/ros2_ws/install/mypkg/lib/mypkg\n'}
+[0.782019] (mypkg) StdoutLine: {'line': b"writing list of installed files to '/home/ochiai/ros2_ws/build/mypkg/install.log'\n"}
+[0.801401] (-) TimerEvent: {}
+[0.819519] (mypkg) CommandEnded: {'returncode': 0}
+[0.833034] (mypkg) JobEnded: {'identifier': 'mypkg', 'rc': 0}
+[0.901532] (-) TimerEvent: {}
+[0.956905] (person_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 0.7.10 (/opt/ros/dashing/share/rosidl_adapter/cmake)\n'}
+[1.001715] (-) TimerEvent: {}
+[1.102090] (-) TimerEvent: {}
+[1.202466] (-) TimerEvent: {}
+[1.302986] (-) TimerEvent: {}
+[1.403779] (-) TimerEvent: {}
+[1.504861] (-) TimerEvent: {}
+[1.605296] (-) TimerEvent: {}
+[1.705666] (-) TimerEvent: {}
+[1.739118] (person_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.6.9") \n'}
+[1.805823] (-) TimerEvent: {}
+[1.853555] (person_msgs) StdoutLine: {'line': b'-- Using single matching rosidl_typesupport_c: rosidl_typesupport_fastrtps_c\n'}
+[1.856214] (person_msgs) StdoutLine: {'line': b'-- Using single matching rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp\n'}
+[1.905952] (-) TimerEvent: {}
+[2.006332] (-) TimerEvent: {}
+[2.106716] (-) TimerEvent: {}
+[2.207165] (-) TimerEvent: {}
+[2.307518] (-) TimerEvent: {}
+[2.407894] (-) TimerEvent: {}
+[2.508313] (-) TimerEvent: {}
+[2.608692] (-) TimerEvent: {}
+[2.709117] (-) TimerEvent: {}
+[2.809499] (-) TimerEvent: {}
+[2.909886] (-) TimerEvent: {}
+[3.010246] (-) TimerEvent: {}
+[3.057768] (person_msgs) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)\n'}
+[3.076527] (person_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3.5") \n'}
+[3.076680] (person_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.7.11 (/opt/ros/dashing/share/python_cmake_module/cmake)\n'}
+[3.093100] (person_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.093258] (person_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.6m\n'}
+[3.093312] (person_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.6m.so\n'}
+[3.110358] (-) TimerEvent: {}
+[3.210674] (-) TimerEvent: {}
+[3.311018] (-) TimerEvent: {}
+[3.411382] (-) TimerEvent: {}
+[3.511755] (-) TimerEvent: {}
+[3.612199] (-) TimerEvent: {}
+[3.712652] (-) TimerEvent: {}
+[3.813017] (-) TimerEvent: {}
+[3.913417] (-) TimerEvent: {}
+[4.013780] (-) TimerEvent: {}
+[4.114225] (-) TimerEvent: {}
+[4.161757] (person_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.7.12 (/opt/ros/dashing/share/ament_lint_auto/cmake)\n'}
+[4.167963] (person_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.168246] (person_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.169904] (person_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.190048] (person_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[4.192650] (person_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/ochiai/ros2_ws/build/person_msgs\n'}
+[4.214376] (-) TimerEvent: {}
+[4.219933] (person_msgs) StdoutLine: {'line': b'[  3%] Built target person_msgs__cpp\n'}
+[4.222121] (person_msgs) StdoutLine: {'line': b'[ 13%] Built target person_msgs__rosidl_generator_c\n'}
+[4.240175] (person_msgs) StdoutLine: {'line': b'[ 24%] Built target person_msgs__rosidl_typesupport_introspection_cpp\n'}
+[4.242401] (person_msgs) StdoutLine: {'line': b'[ 34%] Built target person_msgs__rosidl_typesupport_introspection_c\n'}
+[4.243610] (person_msgs) StdoutLine: {'line': b'[ 44%] Built target person_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[4.262611] (person_msgs) StdoutLine: {'line': b'[ 65%] Built target person_msgs__rosidl_typesupport_fastrtps_c\n'}
+[4.262784] (person_msgs) StdoutLine: {'line': b'[ 65%] Built target person_msgs__rosidl_typesupport_cpp\n'}
+[4.278572] (person_msgs) StdoutLine: {'line': b'[ 75%] Built target person_msgs__rosidl_typesupport_c\n'}
+[4.293902] (person_msgs) StdoutLine: {'line': b'[ 75%] Built target person_msgs\n'}
+[4.308900] (person_msgs) StdoutLine: {'line': b'[ 79%] Built target person_msgs__py\n'}
+[4.314515] (-) TimerEvent: {}
+[4.328148] (person_msgs) StdoutLine: {'line': b'[ 86%] Built target person_msgs__python\n'}
+[4.346722] (person_msgs) StdoutLine: {'line': b'[100%] Built target person_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[4.346914] (person_msgs) StdoutLine: {'line': b'[100%] Built target person_msgs__rosidl_typesupport_c__pyext\n'}
+[4.355543] (person_msgs) CommandEnded: {'returncode': 0}
+[4.388705] (person_msgs) JobProgress: {'identifier': 'person_msgs', 'progress': 'install'}
+[4.395749] (person_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ochiai/ros2_ws/build/person_msgs', '--target', 'install', '--', '-j8', '-l8'], 'cwd': '/home/ochiai/ros2_ws/build/person_msgs', 'env': OrderedDict([('UIM_CANDWIN_PROG', 'uim-candwin-gtk'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ochiai'), ('LC_TIME', 'ja_JP.UTF-8'), ('LD_LIBRARY_PATH', '/home/ochiai/ros2_ws/install/person_msgs/lib:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib'), ('SHLVL', '1'), ('OLDPWD', '/home/ochiai/ros2_ws/src/person_msgs'), ('HOME', '/home/ochiai'), ('XIM', 'uim'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'ja_JP.UTF-8'), ('WSL_DISTRO_NAME', 'Ubuntu-18.04'), ('COLCON_PREFIX_PATH', '/home/ochiai/ros2_ws/install'), ('ROS_DISTRO', 'dashing'), ('LOGNAME', 'ochiai'), ('GTK_IM_MODULE', 'uim'), ('WSL_INTEROP', '/run/WSL/9_interop'), ('NAME', 'DESKTOP-V2CC7MF'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('LC_COLLATE', 'ja_JP.UTF-8'), ('PATH', '/opt/ros/dashing/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/Symantec/VIP Access Client/:/mnt/c/Program Files/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/MATLAB/R2022a/bin:/mnt/c/Users/Takumi.Ochiai/AppData/Local/Microsoft/WindowsApps:/snap/bin'), ('DISPLAY', '172.23.64.1:0'), ('LANG', 'ja_JP.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XMODIFIERS', '@im=uim'), ('AMENT_PREFIX_PATH', '/home/ochiai/ros2_ws/install/person_msgs:/home/ochiai/ros2_ws/install/mypkg:/opt/ros/dashing'), ('LC_MESSAGES', 'ja_JP.UTF-8'), ('LC_NAME', 'ja_JP.UTF-8'), ('SHELL', '/bin/bash'), ('NO_AT_BRIDGE', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ja_JP.UTF-8'), ('LC_IDENTIFICATION', 'ja_JP.UTF-8'), ('QT_IM_MODULE', 'uim'), ('PWD', '/home/ochiai/ros2_ws/build/person_msgs'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ochiai/ros2_ws/install/person_msgs/lib/python3.6/site-packages:/home/ochiai/ros2_ws/install/mypkg/lib/python3.6/site-packages:/opt/ros/dashing/lib/python3.6/site-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/ochiai/ros2_ws/install/person_msgs:/home/ochiai/ros2_ws/install/mypkg:/opt/ros/dashing'), ('WSLENV', '')]), 'shell': False}
+[4.414627] (-) TimerEvent: {}
+[4.429622] (person_msgs) StdoutLine: {'line': b'[ 10%] Built target person_msgs__cpp\n'}
+[4.429848] (person_msgs) StdoutLine: {'line': b'[ 13%] Built target person_msgs__rosidl_generator_c\n'}
+[4.445620] (person_msgs) StdoutLine: {'line': b'[ 34%] Built target person_msgs__rosidl_typesupport_introspection_cpp\n'}
+[4.445840] (person_msgs) StdoutLine: {'line': b'[ 34%] Built target person_msgs__rosidl_typesupport_introspection_c\n'}
+[4.447281] (person_msgs) StdoutLine: {'line': b'[ 44%] Built target person_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[4.464475] (person_msgs) StdoutLine: {'line': b'[ 65%] Built target person_msgs__rosidl_typesupport_cpp\n'}
+[4.464660] (person_msgs) StdoutLine: {'line': b'[ 65%] Built target person_msgs__rosidl_typesupport_fastrtps_c\n'}
+[4.480392] (person_msgs) StdoutLine: {'line': b'[ 75%] Built target person_msgs__rosidl_typesupport_c\n'}
+[4.493980] (person_msgs) StdoutLine: {'line': b'[ 75%] Built target person_msgs\n'}
+[4.507732] (person_msgs) StdoutLine: {'line': b'[ 79%] Built target person_msgs__py\n'}
+[4.514802] (-) TimerEvent: {}
+[4.524797] (person_msgs) StdoutLine: {'line': b'[ 86%] Built target person_msgs__python\n'}
+[4.541466] (person_msgs) StdoutLine: {'line': b'[100%] Built target person_msgs__rosidl_typesupport_c__pyext\n'}
+[4.541698] (person_msgs) StdoutLine: {'line': b'[100%] Built target person_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[4.554143] (person_msgs) StdoutLine: {'line': b'\x1b[36mInstall the project...\x1b[0m\n'}
+[4.560131] (person_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.560346] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ochiai/ros2_ws/install/person_msgs/share/ament_index/resource_index/rosidl_interfaces/person_msgs\n'}
+[4.560609] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ochiai/ros2_ws/install/person_msgs/lib/libperson_msgs__rosidl_typesupport_c.so\n'}
+[4.560690] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ochiai/ros2_ws/install/person_msgs/share/person_msgs/environment/library_path.sh\n'}
+[4.560778] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ochiai/ros2_ws/install/person_msgs/lib/libperson_msgs__rosidl_typesupport_cpp.so\n'}
+[4.560847] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ochiai/ros2_ws/install/person_msgs/include/person_msgs\n'}
+[4.561045] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ochiai/ros2_ws/install/person_msgs/include/person_msgs/msg\n'}
+[4.561196] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ochiai/ros2_ws/install/person_msgs/include/person_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[4.561283] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ochiai/ros2_ws/install/person_msgs/include/person_msgs/msg/person__rosidl_typesupport_fastrtps_c.h\n'}
+[4.561500] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ochiai/ros2_ws/install/person_msgs/lib/libperson_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[4.561778] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ochiai/ros2_ws/install/person_msgs/include/person_msgs\n'}
+[4.561895] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ochiai/ros2_ws/install/person_msgs/include/person_msgs/msg\n'}
+[4.561967] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ochiai/ros2_ws/install/person_msgs/include/person_msgs/msg/person.h\n'}
+[4.562195] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ochiai/ros2_ws/install/person_msgs/include/person_msgs/msg/person__functions.c\n'}
+[4.562289] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ochiai/ros2_ws/install/person_msgs/include/person_msgs/msg/person__type_support.h\n'}
+[4.562537] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ochiai/ros2_ws/install/person_msgs/include/person_msgs/msg/person__functions.h\n'}
+[4.562618] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ochiai/ros2_ws/install/person_msgs/include/person_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[4.562667] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ochiai/ros2_ws/install/person_msgs/include/person_msgs/msg/person__struct.h\n'}
+[4.562707] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ochiai/ros2_ws/install/person_msgs/lib/libperson_msgs__rosidl_generator_c.so\n'}
+[4.562745] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ochiai/ros2_ws/install/person_msgs/include/person_msgs\n'}
+[4.562783] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ochiai/ros2_ws/install/person_msgs/include/person_msgs/msg\n'}
+[4.562829] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ochiai/ros2_ws/install/person_msgs/include/person_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[4.562891] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ochiai/ros2_ws/install/person_msgs/include/person_msgs/msg/dds_fastrtps\n'}
+[4.562934] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ochiai/ros2_ws/install/person_msgs/include/person_msgs/msg/person__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.562974] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ochiai/ros2_ws/install/person_msgs/lib/libperson_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[4.563012] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ochiai/ros2_ws/install/person_msgs/include/person_msgs\n'}
+[4.563049] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ochiai/ros2_ws/install/person_msgs/include/person_msgs/msg\n'}
+[4.563086] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ochiai/ros2_ws/install/person_msgs/include/person_msgs/msg/person.hpp\n'}
+[4.563125] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ochiai/ros2_ws/install/person_msgs/include/person_msgs/msg/person__traits.hpp\n'}
+[4.563162] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ochiai/ros2_ws/install/person_msgs/include/person_msgs/msg/person__struct.hpp\n'}
+[4.563198] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ochiai/ros2_ws/install/person_msgs/include/person_msgs\n'}
+[4.563236] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ochiai/ros2_ws/install/person_msgs/include/person_msgs/msg\n'}
+[4.563273] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ochiai/ros2_ws/install/person_msgs/include/person_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[4.563312] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ochiai/ros2_ws/install/person_msgs/include/person_msgs/msg/person__type_support.c\n'}
+[4.563350] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ochiai/ros2_ws/install/person_msgs/include/person_msgs/msg/person__rosidl_typesupport_introspection_c.h\n'}
+[4.563386] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ochiai/ros2_ws/install/person_msgs/lib/libperson_msgs__rosidl_typesupport_introspection_c.so\n'}
+[4.563424] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ochiai/ros2_ws/install/person_msgs/include/person_msgs\n'}
+[4.563460] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ochiai/ros2_ws/install/person_msgs/include/person_msgs/msg\n'}
+[4.563498] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ochiai/ros2_ws/install/person_msgs/include/person_msgs/msg/person__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.563535] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ochiai/ros2_ws/install/person_msgs/include/person_msgs/msg/person__type_support.cpp\n'}
+[4.563578] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ochiai/ros2_ws/install/person_msgs/lib/libperson_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[4.563621] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ochiai/ros2_ws/install/person_msgs/share/person_msgs/environment/pythonpath.sh\n'}
+[4.563722] (person_msgs) StdoutLine: {'line': b'-- Installing: /home/ochiai/ros2_ws/install/person_msgs/lib/python3.6/site-packages/person_msgs/__init__.py\n'}
+[4.583144] (person_msgs) StdoutLine: {'line': b"Compiling '/home/ochiai/ros2_ws/install/person_msgs/lib/python3.6/site-packages/person_msgs/__init__.py'...\n"}
+[4.586164] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ochiai/ros2_ws/install/person_msgs/lib/python3.6/site-packages/person_msgs/msg\n'}
+[4.586337] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ochiai/ros2_ws/install/person_msgs/lib/python3.6/site-packages/person_msgs/msg/_person.py\n'}
+[4.586412] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ochiai/ros2_ws/install/person_msgs/lib/python3.6/site-packages/person_msgs/msg/_person_s.c\n'}
+[4.586610] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ochiai/ros2_ws/install/person_msgs/lib/python3.6/site-packages/person_msgs/msg/__init__.py\n'}
+[4.586709] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ochiai/ros2_ws/install/person_msgs/lib/python3.6/site-packages/person_msgs/person_msgs_s__rosidl_typesupport_c.cpython-36m-x86_64-linux-gnu.so\n'}
+[4.586918] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ochiai/ros2_ws/install/person_msgs/lib/python3.6/site-packages/person_msgs/person_msgs_s__rosidl_typesupport_fastrtps_c.cpython-36m-x86_64-linux-gnu.so\n'}
+[4.587203] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ochiai/ros2_ws/install/person_msgs/lib/libperson_msgs__python.so\n'}
+[4.587296] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ochiai/ros2_ws/install/person_msgs/share/person_msgs/msg/Person.idl\n'}
+[4.587407] (person_msgs) StdoutLine: {'line': b'-- Installing: /home/ochiai/ros2_ws/install/person_msgs/share/person_msgs/msg/Person.msg\n'}
+[4.587648] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ochiai/ros2_ws/install/person_msgs/share/ament_index/resource_index/package_run_dependencies/person_msgs\n'}
+[4.588118] (person_msgs) StdoutLine: {'line': b'-- Installing: /home/ochiai/ros2_ws/install/person_msgs/share/ament_index/resource_index/parent_prefix_path/person_msgs\n'}
+[4.588184] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ochiai/ros2_ws/install/person_msgs/share/person_msgs/environment/ament_prefix_path.sh\n'}
+[4.588234] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ochiai/ros2_ws/install/person_msgs/share/person_msgs/environment/path.sh\n'}
+[4.588283] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ochiai/ros2_ws/install/person_msgs/share/person_msgs/local_setup.bash\n'}
+[4.588331] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ochiai/ros2_ws/install/person_msgs/share/person_msgs/local_setup.sh\n'}
+[4.588379] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ochiai/ros2_ws/install/person_msgs/share/person_msgs/local_setup.zsh\n'}
+[4.588426] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ochiai/ros2_ws/install/person_msgs/share/ament_index/resource_index/packages/person_msgs\n'}
+[4.588474] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ochiai/ros2_ws/install/person_msgs/share/person_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[4.588522] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ochiai/ros2_ws/install/person_msgs/share/person_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[4.588569] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ochiai/ros2_ws/install/person_msgs/share/person_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[4.588617] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ochiai/ros2_ws/install/person_msgs/share/person_msgs/cmake/person_msgsConfig.cmake\n'}
+[4.588664] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ochiai/ros2_ws/install/person_msgs/share/person_msgs/cmake/person_msgsConfig-version.cmake\n'}
+[4.588711] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ochiai/ros2_ws/install/person_msgs/share/person_msgs/package.xml\n'}
+[4.592031] (person_msgs) CommandEnded: {'returncode': 0}
+[4.615076] (-) TimerEvent: {}
+[4.648865] (person_msgs) JobEnded: {'identifier': 'person_msgs', 'rc': 0}
+[4.649624] (-) EventReactorShutdown: {}
